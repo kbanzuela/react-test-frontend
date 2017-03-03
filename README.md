@@ -3,11 +3,9 @@ base code cloned from https://github.com/JuneDomingo/react-starterkit
 
 ### Installation
 
-Install Yarn and run
+Install Yarn
 ```sh
 $ npm install yarn -g
 $ yarn install
-$ npm start
+$ npm start -s
 ```
-
-Make sure Server react-test-api is running as well
