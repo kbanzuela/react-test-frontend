@@ -20,7 +20,7 @@ export function deletePersonSuccess(personId) {
 
 export function loadPersons() {
 	return function (dispatch) {
-		return axios.get(`${api.URL}/persons`)
+		return axios.get(`${api.URL}/persons?d=${new Date().getTime()}`)
 			.then(res => {
 				dispatch(loadPersonsSuccess(res));
 			}).catch(error => {
