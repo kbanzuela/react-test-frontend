@@ -9,3 +9,5 @@ $ npm install yarn -g
 $ yarn install
 $ npm start -s
 ```
+
+Make sure to run react-test-api
